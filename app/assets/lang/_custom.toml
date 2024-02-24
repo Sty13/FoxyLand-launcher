@@ -1,0 +1,20 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "FoxyLand Launcher"
+
+[ejs.landing]
+mediaGitHubURL = ""
+mediaTwitterURL = "#"
+mediaInstagramURL = "#"
+mediaYouTubeURL = "#"
+mediaDiscordURL = "https://foxyb.live/discord"
+
+[ejs.settings]
+sourceGithubLink = "#"
+supportLink = "https://foxyb.live/discord"
+
+[ejs.welcome]
+welcomeHeader = "BEM VINDO(A) A FOXYLAND!"
+welcomeDescription = "Nossa missão é tornar minecraft divertido, mesmo que a Foxy não goste, pelo menos tentamos 0-0"
+welcomeDescCTA = "Este launcher foi feito para eventos no Servidor FoxyLand, quaisquer bugs contate nossos desenvolvedores. Clique em 'Continuar' para entrar em sua conta Microsoft e começar a jogar."

@@ -1,0 +1,299 @@
+[ejs.landing]
+updateAvailableTooltip = "Atualização Disponível"
+usernamePlaceholder = "Usuário"
+usernameEditButton = "Editar"
+settingsTooltip = "Configurações"
+serverStatus = "SERVIDOR"
+serverStatusPlaceholder = "OFFLINE"
+mojangStatus = "STATUS MOJANG"
+mojangStatusTooltipTitle = "Serviços"
+mojangStatusNETitle = "Não&nbsp;Essencial"
+newsButton = "NOTICIAS"
+launchButton = "JOGAR"
+launchButtonPlaceholder = "&#8226; Nenhum Servidor Selecionado"
+launchDetails = "Please wait.."
+newsNavigationStatus = "{currentPage} of {totalPages}"
+newsErrorLoadSpan = "Checking for News.."
+newsErrorFailedSpan = "Failed to Load News"
+newsErrorRetryButton = "Try Again"
+newsErrorNoneSpan = "No News"
+
+[ejs.login]
+loginCancelText = "Cancel"
+loginSubheader = "MINECRAFT LOGIN"
+loginEmailError = "* Invalid Value"
+loginEmailPlaceholder = "EMAIL OR USERNAME"
+loginPasswordError = "* Required"
+loginPasswordPlaceholder = "PASSWORD"
+loginForgotPasswordLink = "https://minecraft.net/password/forgot/"
+loginForgotPasswordText = "forgot password?"
+loginRememberMeText = "remember me?"
+loginButtonText = "LOGIN"
+loginNeedAccountLink = "https://minecraft.net/store/minecraft-java-edition/"
+loginNeedAccountText = "Need an Account?"
+loginPasswordDisclaimer1 = "Your password is sent directly to mojang and never stored."
+loginPasswordDisclaimer2 = "{appName} is not affiliated with Mojang AB."
+
+[ejs.loginOptions]
+loginOptionsTitle = "Opções de login"
+loginWithMicrosoft = "Login com Microsoft"
+loginWithMojang = "Login com Mojang"
+cancelButton = "Cancelar"
+
+[ejs.overlay]
+serverSelectHeader = "Servidores Disponíveis"
+serverSelectConfirm = "Selecionar"
+serverSelectCancel = "Cancelar"
+accountSelectHeader = "Selecione uma conta"
+accountSelectConfirm = "Selecionar"
+accountSelectCancel = "Cancelar"
+
+[ejs.settings]
+navHeaderText = "Configurações"
+navAccount = "Conta"
+navMinecraft = "Minecraft"
+navMods = "Mods"
+navJava = "Java"
+navLauncher = "Launcher"
+navAbout = "Sobre"
+navUpdates = "Atualizações"
+navDone = "Pronto"
+tabAccountHeaderText = "Configurações de conta"
+tabAccountHeaderDesc = "Adicione contas ou gerencie uma conta existente"
+microsoftAccount = "Microsoft"
+addMicrosoftAccount = "+ Adicionar Conta Microsoft"
+mojangAccount = "Mojang"
+addMojangAccount = "+ Adicionar Conta Mojang"
+minecraftTabHeaderText = "Configurações do Minecraft"
+minecraftTabHeaderDesc = "Opções relacionada a inicialização do Minecraft"
+gameResolutionTitle = "Resolução do Jogo"
+launchFullscreenTitle = "Iniciar em Tela Cheia."
+autoConnectTitle = "Automaticamente conectar ao servidor ao iniciar."
+launchDetachedTitle = "Iniciar jogo desanexado da janela do launcher."
+launchDetachedDesc = "Se o jogo não estiver desanexado, fechar o inicializador também fechará o jogo."
+tabModsHeaderText = "Configurações de mods"
+tabModsHeaderDesc = "Ativar ou Desativar mods."
+switchServerButton = "Alterar"
+requiredMods = "Mods Requeridos"
+optionalMods = "Mods Opcionais"
+dropinMods = "Drop-in Mods"
+addMods = "Adicionar Mods"
+dropinRefreshNote = "(F5 para recarregar)"
+shaderpacks = "Shaderspacks"
+shaderpackDesc = "Ativar ou desativar shaders. Tenha em mente que, shaders só irá rodar em computadores potentes. Você pode adicionar shaderspacks aqui."
+selectShaderpack = "Selecionar Shaderpack"
+tabJavaHeaderText = "Configurações Java"
+tabJavaHeaderDesc = "Opções relacionadas ao Java."
+memoryTitle = "Memória"
+maxRAM = "RAM Máxima"
+minRAM = "RAM Minima"
+memoryDesc = "A RAM mínima recomendada é de 3 gigabytes. Definir os valores mínimo e máximo para o mesmo valor pode reduzir o atraso."
+memoryTotalTitle = "Total"
+memoryAvailableTitle = "Disponível"
+javaExecutableTitle = "Executável do Java"
+javaExecSelDialogTitle = "Selecionar executável do Java"
+javaExecSelButtonText = "Selecionar arquivo"
+javaExecDesc = "O executável Java é validado antes do lançamento do jogo."
+javaPathDesc = "O caminho deve terminar com <strong>{pathSuffix}</strong>."
+jvmOptsTitle = "Opções de JVM adicionais"
+jvmOptsDesc = "Options to be provided to the JVM at runtime. <em>-Xms</em> and <em>-Xmx</em> should not be included."
+launcherTabHeaderText = "Launcher Settings"
+launcherTabHeaderDesc = "Options related to the launcher itself."
+allowPrereleaseTitle = "Allow Pre-Release Updates."
+allowPrereleaseDesc = "Pre-Releases include new features which may have not been fully tested or integrated.<br>This will always be true if you are using a pre-release version."
+dataDirectoryTitle = "Data Directory"
+selectDataDirectory = "Select Data Directory"
+chooseFolder = "Choose Folder"
+dataDirectoryDesc = "All game files and local Java installations will be stored in the data directory.<br>Screenshots and world saves are stored in the instance folder for the corresponding server configuration."
+aboutTabHeaderText = "About"
+aboutTabHeaderDesc = "View information and release notes for the current version."
+aboutTitle = "{appName}"
+stableRelease = "Stable Release"
+versionText = "Version "
+sourceGithub = "Source (GitHub)"
+support = "Support"
+devToolsConsole = "DevTools Console"
+releaseNotes = "Release Notes"
+changelog = "Changelog"
+noReleaseNotes = "No Release Notes"
+viewReleaseNotes = "View Release Notes on GitHub"
+launcherUpdatesHeaderText = "Launcher Updates"
+launcherUpdatesHeaderDesc = "Download, install, and review updates for the launcher."
+checkForUpdates = "Check for Updates"
+whatsNew = "What's New"
+updateReleaseNotes = "Update Release Notes"
+
+[ejs.waiting]
+waitingText = "Esperando pela Microsoft.."
+
+[ejs.welcome]
+continueButton = "CONTINUAR"
+
+
+
+[js.discord]
+waiting = "Esperando pelo cliente.."
+state = "Servidor: {shortId}"
+
+[js.index]
+microsoftLoginTitle = "Logar na Microsoft"
+microsoftLogoutTitle = "Deslogar na Microsoft"
+
+[js.login]
+login = "LOGAR"
+loggingIn = "LOGANDO"
+success = "SUCESSO"
+tryAgain = "Tentar Novamente"
+
+[js.login.error]
+invalidValue = "* Valor inválido"
+requiredValue = "* Requirido"
+
+[js.login.error.unknown]
+title = "Ocorreu um erro desconhecido durante o Login."
+desc = "Ocorreu um erro desconhecido. Por favor contate um admin para receber a instrução como resolver o problema."
+
+[js.landing.launch]
+pleaseWait = "Por Favor aguarde..."
+failureTitle = "Erro durante a inicialização do jogo"
+failureText = "Por favor contate um admin para receber a instrução como resolver o problema. Error Code: 1"
+okay = "Okay"
+
+[js.landing.selectedAccount]
+noAccountSelected = "Nenhuma conta selecionada"
+
+[js.landing.selectedServer]
+noSelection = "Nenhum servidor detectado"
+loading = "Carregando..."
+
+[js.landing.serverStatus]
+server = "SERVIDOR"
+offline = "OFFLINE"
+players = "JOGADORES"
+
+[js.landing.systemScan]
+checking = "Checando..."
+noCompatibleJava = "Nenhuma instalação<br>Java encontrada."
+installJavaMessage = "Para iniciar o Minecraft, você precisa de uma instalação de 64 bits do Java {major}. Deseja que instalemos uma cópia?"
+installJava = "Instalar Java"
+installJavaManually = "Instalar Manualmente"
+javaDownloadPrepare = "Preparando o download do Java..."
+javaDownloadFailureTitle = "Erro durante a instalação do java"
+javaDownloadFailureText = "Por favor contate um admin para receber a instrução como resolver o problema. Error Code: 1_Java"
+javaRequired = "Java é necessário<br>para iniciar"
+javaRequiredMessage = 'Uma instalação x64 válida do Java {major} é necessária para iniciar.<br><br>Por favor contate um admin para receber a instrução como resolver o problema.'
+javaRequiredDismiss = "Ok"
+javaRequiredCancel = "Voltar"
+
+
+[js.landing.downloadJava]
+findJdkFailure = "Falha ao encontrar a distribuição OpenJDK."
+javaDownloadCorruptedError = "O JDK baixado possui um hash incorreto, o arquivo pode estar corrompido."
+extractingJava = "Extraindo Java"
+javaInstalled = "Java instalado!"
+
+[js.landing.dlAsync]
+loadingServerInfo = "Carregando informações do servidor.."
+fatalError = "Erro Fatal"
+unableToLoadDistributionIndex = "Não foi possível carregar uma cópia do índice de distribuição. Por favor contate um admin para receber a instrução como resolver o problema. Error Code: 1"
+pleaseWait = "Aguarde, por favor.."
+errorDuringLaunchTitle = "Erro Durante o Lançamento"
+seeConsoleForDetails = "Por favor contate um admin para receber a instrução como resolver o problema. Error Code: 1"
+validatingFileIntegrity = "Validando a integridade dos arquivos.."
+errorDuringFileVerificationTitle = "Erro Durante a Verificação do Arquivo"
+downloadingFiles = "Baixando arquivos.."
+errorDuringFileDownloadTitle = "Erro Durante o Download do Arquivo"
+preparingToLaunch = "Preparando para iniciar.."
+launchingGame = "Iniciando o jogo.."
+launchWrapperNotDownloaded = "O arquivo principal, LaunchWrapper, falhou ao ser baixado corretamente. Como resultado, o jogo não pode ser iniciado.<br><br>Para corrigir esse problema, desative temporariamente seu software antivírus e inicie o jogo novamente."
+doneEnjoyServer = "Concluído. O jogo iniciará em breve!"
+checkConsoleForDetails = "Por favor contate um admin para receber a instrução como resolver o problema. Error Code: 1"
+
+[js.landing.news]
+checking = "Verificando Notícias"
+
+[js.landing.discord]
+loading = "Carregando Jogo.."
+joining = "Entrando nos menus!"
+joined = "Jogando FoxyLand Purgatório!"
+
+[js.overlay]
+dismiss = "Dispensar"
+
+[js.settings.fileSelectors]
+executables = "Executáveis"
+allFiles = "Todos os Arquivos"
+
+[js.settings.mstfLogin]
+errorTitle = "Algo deu Errado"
+errorMessage = "Falha na autenticação da Microsoft. Por favor, tente novamente."
+okButton = "OK"
+
+[js.settings.mstfLogout]
+errorTitle = "Algo deu Errado"
+errorMessage = "Falha no logout da Microsoft. Por favor, tente novamente."
+okButton = "OK"
+
+[js.settings.authAccountSelect]
+selectButton = "Selecionar Conta"
+selectedButton = "Conta Selecionada ✔"
+
+[js.settings.authAccountLogout]
+lastAccountWarningTitle = "Aviso<br>Esta é a Sua Última Conta"
+lastAccountWarningMessage = "Para usar o lançador, você deve estar logado em pelo menos uma conta. Você precisará fazer login novamente depois.<br><br>Você tem certeza de que deseja sair?"
+confirmButton = "Tenho Certeza"
+cancelButton = "Cancelar"
+
+[js.settings.authAccountPopulate]
+username = "Nome de Usuário"
+uuid = "UUID"
+selectAccount = "Selecionar Conta"
+selectedAccount = "Conta Selecionada ✓"
+logout = "Sair"
+
+[js.settings.dropinMods]
+removeButton = "Remover"
+deleteFailedTitle = "Falha ao Excluir<br>Mod Drop-in {fullName}"
+deleteFailedMessage = "Certifique-se de que o arquivo não está em uso e tente novamente."
+failedToggleTitle = "Falha ao Alternar<br>Um ou Mais Mods Drop-in"
+okButton = "Ok"
+
+[js.settings.serverListing]
+mainServer = "Servidor Principal"
+
+[js.settings.java]
+selectedJava = "Selecionado: Java {version} ({vendor})"
+invalidSelection = "Seleção Inválida"
+requiresJava = "Requer Java {major} x64."
+availableOptions = "Opções Disponíveis para Java {major} (VM HotSpot)"
+
+[js.settings.about]
+preReleaseTitle = "Pré-lançamento"
+stableReleaseTitle = "Versão Estável"
+releaseNotesFailed = "Falha ao carregar as notas de lançamento."
+
+[js.settings.updates]
+newReleaseTitle = "Nova Versão Disponível"
+newPreReleaseTitle = "Novo Pré-lançamento Disponível"
+downloadingButton = "Baixando.."
+downloadButton = 'Baixar do GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Feche o lançador e execute o arquivo dmg para atualizar.</span>'
+latestVersionTitle = "Você Está Usando a Última Versão"
+checkForUpdatesButton = "Verificar Atualizações"
+checkingForUpdatesButton = "Verificando Atualizações.."
+
+[js.uibinder.startup]
+fatalErrorTitle = "Erro Fatal: Incapaz de Carregar o Índice de Distribuição"
+fatalErrorMessage = "Não foi possível estabelecer uma conexão com nossos servidores para baixar o índice de distribuição. Não havia cópias locais disponíveis para carregar. <br><br>O índice de distribuição é um arquivo essencial que fornece as últimas informações do servidor. O lançador não pode ser iniciado sem ele. Certifique-se de estar conectado à internet e reinicie o aplicativo."
+closeButton = "Fechar"
+
+[js.uibinder.validateAccount]
+failedMessageTitle = "Falha ao Atualizar o Login"
+failedMessage = "Não conseguimos atualizar o login para <strong>{account}</strong>. Por favor, selecione outra conta ou faça login novamente."
+failedMessageSelectAnotherAccount = "Não conseguimos atualizar o login para <strong>{account}</strong>. Por favor, faça login novamente."
+loginButton = "Login"
+selectAnotherAccountButton = "Selecionar Outra Conta"
+
+[js.uicore.autoUpdate]
+checkingForUpdateButton = "Verificando Atualizações..."
+installNowButton = "Instalar Agora"
+checkForUpdatesButton = "Verificar Atualizações"
